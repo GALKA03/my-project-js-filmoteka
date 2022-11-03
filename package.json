@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "my-project-js-filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://GALKA03.github.io/my-project-js-filmoteka",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /my-project-js-filmoteka/"
   },
   "repository": {
     "type": "git",
