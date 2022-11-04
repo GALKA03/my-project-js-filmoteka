@@ -1,0 +1,47 @@
+@media screen and (max-width:768px){
+.header{
+    height: 230px;
+    background-color: #640606;
+  background-image: url('/src/images/background-mobile-1x.jpg');  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__conteiner{
+    padding-top: 40px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.header__menu{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+// .header__item:nth-last-child(){
+//     margin-right: 39px;
+// }
+.logo{
+    display: none;
+}
+}
+@media screen and (min-width: 768px) {
+.logo{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ffffff;
+}
+
+}

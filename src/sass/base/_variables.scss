@@ -1,0 +1,43 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primery-text-color);
+}
+
+/*.button {
+    display: block;
+    padding-bottom: 0;
+}*/
+button {
+    cursor: pointer;
+}
