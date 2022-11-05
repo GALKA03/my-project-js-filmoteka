@@ -1,23 +1,21 @@
-.header__conteiner {
+.header-library__conteiner {
     padding-top: 42px;
     display: flex;
     align-items: baseline;
 }
 
-.header__logo-conteiner {
+.header-library__logo-conteiner {
     margin-right: auto;
     align-items: center;
 }
 
-.header__menu {
+.header-library__menu {
     display: flex;
     justify-content: flex-end;
 
 }
-.form{
-    display: none;
-}
-.header__item {
+
+.header-library__item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -33,7 +31,7 @@
 
 
 
-.heder__link {
+.heder-library__link {
     display: block;
     color: #FFFFFF;
     position: relative;
@@ -61,7 +59,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .header {
+    .header-library {
         width: 100%;
         background-color: #640606;
         background-image: url('/src/images/bacgroundP2@1x-mobile.jpg');
@@ -72,24 +70,24 @@
     @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .header {
+        .header-library {
             background-image:
                 url('/src/images/bacgroundP2@2x-mobile.jpg');
         }
     }
 
-    .header__main-conteiner {
+    .header-library__main-conteiner {
 
         height: 230px;
     }
 
-    .logo {
+    .logo-library {
         display: none;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .logo {
+    .logo-library{
 
         font-family: 'Roboto';
         font-style: normal;
@@ -102,11 +100,11 @@
         color: #ffffff;
     }
 
-    .header__link-icon:not(:last-child) {
+    .header-library__link-icon:not(:last-child) {
         margin-right: 12px;
     }
 
-    .header {
+    .header-library {
         width: 100%;
         background-color: #640606;
         background-image: url('/src/images/bacgroundP2@1x-tablet.jpg');
@@ -117,21 +115,21 @@
     @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .header {
+        .header-library {
             background-image:
                 url('/src/images/bacgroundP2@2x-tablet.jpg');
         }
     }
 
-    .header__main-conteiner {
+    .header-library__main-conteiner {
         height: 216px;
     }
 
-    .header__conteiner {
+    .header-library__conteiner {
         padding-top: 45px;
     }
 
-    .header__logo-conteiner {
+    .header-library__logo-conteiner {
         display: flex;
     }
 
@@ -142,7 +140,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .header {
+    .header-library {
         width: 100%;
         background-color: #640606;
         background-image: url('/src/images/bacgroundP2@1x-desctop.jpg');
@@ -153,7 +151,7 @@
     @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .header {
+        .header-library {
             background-image:
                 url('/src/images/bacgroundP2@2x-desctop.jpg');
         }
